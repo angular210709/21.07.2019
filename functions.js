@@ -19,3 +19,13 @@ function c( msg )
 
 // IIFE - abda
 ( ()=> { console.log(1)  })()
+
+function test()
+{
+  var z = 1
+}
+
+test()
+
+console.log(z) -- error
+
