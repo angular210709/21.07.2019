@@ -12,8 +12,8 @@ function printObject(obj)
   }
 }
 
-o = new Object()
-o1 = { name : 'itay' }
+const o = new Object()
+const o1 = { name : 'itay' }
 o1.color = 'yellow'
 o1["computer"] = 'dell'
 c(o1)
