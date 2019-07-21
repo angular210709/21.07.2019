@@ -20,14 +20,17 @@ o1["computer"] = 'dell'
 c(o1)
 printObject(o1)
 
+var x = 5
+
 const o12= { name : 'itay',
              getName() {
-               c ( this.name )
+               return this.name
              },
             printName() {
-              
+              c ( this.name )
             },
-            'color' : 'yellow'
+            'color' : 'yellow',
+            x
            }
 
 printObject(o12)
